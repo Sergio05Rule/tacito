@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Transcription inputs stay local
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.aac
+*.aiff
+*.mp4
+*.mov
+*.webm
+
+# Transcription outputs stay local
+*.srt
+*.vtt
+*.txt
+*.json
+!requirements.txt
+out/
+
+.DS_Store
